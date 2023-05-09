@@ -29,4 +29,5 @@ function handleSubmit(event) {
     fetch(url, fetchOptions);
 
     event.preventDefault();
-}
+
+};
