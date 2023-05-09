@@ -56,6 +56,7 @@ fetch('http://localhost:9090/files')
 //List and download
 
 // Fetch the file list from the server
+/*
 fetch('http://localhost:9090/files')
     .then(response => response.json())
     .then(data => {
@@ -74,3 +75,39 @@ fetch('http://localhost:9090/files')
     .catch(error => {
         console.error('Error:', error);
     });
+*/
+//Delete button
+fetch('http://localhost:9090/files')
+    .then(response => response.json())
+    .then(data => {
+        const fileListElement = document.getElementById('/files/');
+        data.forEach(file => {
+            const li = document.createElement('li');
+            const downloadButton = document.createElement('button');
+            downloadButton.textContent = 'Download';
+            downloadButton.addEventListener('click', () => {
+                downloadFile(file.url, file.name);
+            });
+            li.textContent = file.name;
+            li.appendChild(downloadButton);
+            fileListElement.appendChild(li);
+        });
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+
+function downloadFile(url, fileName) {
+    fetch(url)
+        .then(response => response.blob())
+        .then(blob => {
+            const url = window.URL.createObjectURL(new Blob([blob]));
+            const link = document.createElement('a');
+            link.href = url;
+            link.setAttribute('download', fileName);
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+        });
+}
+
