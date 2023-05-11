@@ -23,7 +23,7 @@ console.log("Vi er i fetchpost")
     postElement.classList.add('post');
     postElement.innerHTML = `
         <h2>${post.title}</h2>
-        <p>${post.content}</p>
+        <p>${post.body}</p>
         <p><em>${formatDate(post.date)}</em></p>
       `;
     postContainer.appendChild(postElement);
@@ -34,7 +34,6 @@ console.log("Vi er i fetchpost")
 
     const titleInput = document.getElementById('title');
     const bodyInput = document.getElementById('body');
-    const dateInput = document.getElementById('dateCreated');
 
 
     const newPost = {
@@ -49,14 +48,13 @@ console.log("Vi er i fetchpost")
     'Content-Type': 'application/json'
 },
     body: JSON.stringify(newPost)
-})
+}) 
     .then(response => response.json())
     .then(createdPost => {
     displayPost(createdPost);
     titleInput.value = '';
     bodyInput.value = '';
-    dateInput.value = Date;
-})
+  })
     .catch(error => console.error('Error:', error));
 });
 
