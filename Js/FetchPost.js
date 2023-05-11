@@ -5,7 +5,7 @@ console.log("Vi er i fetchpost")
 
     function formatDate(dateString) {
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(dateString).toLocaleDateString(undefined, options);
+    return new Date (dateString).toLocaleDateString(undefined, options);
 }
 
     function fetchPosts() {
@@ -48,7 +48,7 @@ console.log("Vi er i fetchpost")
     'Content-Type': 'application/json'
 },
     body: JSON.stringify(newPost)
-}) 
+})
     .then(response => response.json())
     .then(createdPost => {
     displayPost(createdPost);

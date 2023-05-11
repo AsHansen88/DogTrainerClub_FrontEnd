@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Billed Galleri</title>
+    <title>Image Gallery</title>
+
 </head>
 <body>
+<form id="uploadForm" enctype="multipart/form-data">
 
-<div id="image-container"></div>
+    <input type="file" name="image" id="imageInput" required />
+    <input type="submit" value="Upload" />
+</form>
 
-<script src="Js/FetchImage.js"></script>
+<div class="gallery"></div>
 
+<script src="/Js/FetchImage.js"></script>
 </body>
 </html>
