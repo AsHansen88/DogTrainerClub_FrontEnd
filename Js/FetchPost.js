@@ -27,7 +27,7 @@ console.log("Vi er i fetchpost")
         <p><em>${formatDate(post.date)}</em></p>
       `;
     postContainer.appendChild(postElement);
-}
+};
 
     postForm.addEventListener('submit', event => {
     event.preventDefault();
