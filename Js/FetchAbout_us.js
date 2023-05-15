@@ -1,13 +1,14 @@
 console.log("vi er i fetchAbout-us")
 
 const form = document.getElementById("aboutUsForm");
-const firstname = document.getElementById("firstname");
-const lastname = document.getElementById("lastname")
-const phonenumber = document.getElementById("phonenumber")
-const email = document.getElementById("email")
-const photo = document.getElementById("photo")
+const firstnameInput = document.getElementById("firstname");
+const lastnameInput = document.getElementById("lastname")
+const phonenumberInput = document.getElementById("phonenumber")
+const emailInput = document.getElementById("email")
+const photoInput = document.getElementById("photo")
 //const descriptionInput = document.getElementById("description");
 const aboutUsList = document.getElementById("aboutUsList");
+
 
 
 // Function to display a message
@@ -54,11 +55,11 @@ const fetchAboutUsList = () => {
 const createAboutUs = (event) => {
     event.preventDefault();
 
-    const firstname = firstname.value;
-    const lastname = lastname.value;
-    const phonenumber = phonenumber.value;
-    const email = email.value
-    const photo = photo.value
+    const firstname = firstnameInput.value;
+    const lastname = lastnameInput.value;
+    const phonenumber = phonenumberInput.value;
+    const email = emailInput.value;
+    const photo = photoInput.value;
 
 
     const aboutUs = {
@@ -97,7 +98,7 @@ const createAboutUs = (event) => {
 
 // Function to delete an about us entry
 const deleteAboutUs = (aboutUsId) => {
-    fetch(`http://localhost:9090/About/${id}`, {
+    fetch(`http://localhost:9090/About/${aboutUsId}`, {
         method: "DELETE",
     })
         .then((response) => {

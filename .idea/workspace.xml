@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="html igang">
-      <change afterPath="$PROJECT_DIR$/Css/Om_os.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Html/Om_os.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js/FetchAbout_us.js" afterDir="false" />
+    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="igang med om os side">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/Forside.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/Forside.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/Tilmelding til prøve.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/Tilmelding_til_prøve.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/Om_os.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/Om_os.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/FetchAbout_us.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/FetchAbout_us.js" afterDir="false" />
     </list>
     <list id="0fce8507-4c3f-4ae3-91a6-965c849975e5" name="Changes by Joni" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +67,7 @@
       <workItem from="1684043451663" duration="101000" />
       <workItem from="1684138630517" duration="2433000" />
       <workItem from="1684150852382" duration="23000" />
-      <workItem from="1684150909498" duration="6157000" />
+      <workItem from="1684150909498" duration="8102000" />
     </task>
     <task id="LOCAL-00001" summary=" Nu med billede på forsiden">
       <created>1683901831020</created>
@@ -100,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684139485013</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="igang med om os side">
+      <created>1684157247022</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684157247022</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +125,7 @@
     <MESSAGE value=" Nu med billede på forsiden" />
     <MESSAGE value="faner på forsiden lavet" />
     <MESSAGE value="html igang" />
-    <option name="LAST_COMMIT_MESSAGE" value="html igang" />
+    <MESSAGE value="igang med om os side" />
+    <option name="LAST_COMMIT_MESSAGE" value="igang med om os side" />
   </component>
 </project>
