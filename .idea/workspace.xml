@@ -67,7 +67,7 @@
       <workItem from="1684043451663" duration="101000" />
       <workItem from="1684138630517" duration="2433000" />
       <workItem from="1684150852382" duration="23000" />
-      <workItem from="1684150909498" duration="8102000" />
+      <workItem from="1684150909498" duration="9067000" />
     </task>
     <task id="LOCAL-00001" summary=" Nu med billede på forsiden">
       <created>1683901831020</created>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684157247022</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="igang med om os side">
+      <created>1684159230429</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684159230429</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,12 +1,11 @@
 console.log("vi er i fetchAbout-us")
 
 const form = document.getElementById("aboutUsForm");
-const firstnameInput = document.getElementById("firstname");
-const lastnameInput = document.getElementById("lastname")
-const phonenumberInput = document.getElementById("phonenumber")
-const emailInput = document.getElementById("email")
-const photoInput = document.getElementById("photo")
-//const descriptionInput = document.getElementById("description");
+const firstnameInput = document.getElementsByName("Fornavn")[0];
+const lastnameInput = document.getElementsByName("Efternavn")[0];
+const phonenumberInput = document.querySelector("[telefon='phonenumber']");
+const emailInput = document.querySelector("[Email='Email']");
+const photoInput = document.querySelector("[Photo='photo']");
 const aboutUsList = document.getElementById("aboutUsList");
 
 
@@ -21,7 +20,12 @@ const showMessage = (message, isError = false) => {
         messageElement.style.color = "red";
     }
 
-    document.body.insertBefore(messageElement, form);
+    // Check if the form has a next sibling before inserting the message
+    if (form.nextSibling) {
+        form.parentNode.insertBefore(messageElement, form.nextSibling);
+    } else {
+        form.parentNode.appendChild(messageElement);
+    }
 };
 
 // Function to fetch and display the about us list
