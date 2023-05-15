@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="faner på forsiden lavet">
+      <change afterPath="$PROJECT_DIR$/Css/Blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html/Forkortelser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html/NyHundefører.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html/Tilmelding til prøve.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/Forside.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/Forside.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/PostPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/PostPage.html" afterDir="false" />
+    </list>
+    <list id="0fce8507-4c3f-4ae3-91a6-965c849975e5" name="Changes by Joni" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ph7BVSbrUsEwDCKkdTqNDw3zG3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Datamatiker\Intellij\dog_trainer_club_frontend\Img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="" />
+      <created>1683897324237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683897324237</updated>
+      <workItem from="1683897325411" duration="3938000" />
+      <workItem from="1683901809065" duration="30000" />
+      <workItem from="1683905614703" duration="639000" />
+      <workItem from="1683910488524" duration="156000" />
+      <workItem from="1683910856142" duration="116000" />
+      <workItem from="1683912804397" duration="1095000" />
+      <workItem from="1683914056136" duration="64000" />
+      <workItem from="1683914407424" duration="1352000" />
+      <workItem from="1683921442399" duration="91000" />
+      <workItem from="1683924379298" duration="1159000" />
+      <workItem from="1683966736383" duration="1783000" />
+      <workItem from="1684043451663" duration="101000" />
+      <workItem from="1684138630517" duration="634000" />
+    </task>
+    <task id="LOCAL-00001" summary=" Nu med billede på forsiden">
+      <created>1683901831020</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683901831020</updated>
+    </task>
+    <task id="LOCAL-00002" summary="faner på forsiden lavet">
+      <created>1683914081792</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683914081792</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" Nu med billede på forsiden" />
+    <MESSAGE value="faner på forsiden lavet" />
+    <option name="LAST_COMMIT_MESSAGE" value="faner på forsiden lavet" />
+  </component>
+</project>
