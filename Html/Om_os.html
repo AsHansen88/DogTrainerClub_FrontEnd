@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Om os</title>
+
+</head>
+<body>
+
+<main>
+
+    <div id="createAboutUs">
+
+        <input type="text" name="Fornavn" placeholder="Fornavn" /><br>
+        <input type="text" name="Efternavn" placeholder="Efternavn"><br>
+        <input type="number" telefon="phonenumber" placeholder="phonenumber"><br>
+        <input type="text" Email="Email" placeholder="Email"><br>
+        <input type="text" Photo="photo" placeholder="photo"><br>
+
+        <button id="createitem">Opret medlem</button><br>
+
+    </div>
+
+    </form>
+
+    <div id="aboutUsList"></div>
+
+    <button onclick="deleteAboutUs('${aboutUsModel.id}')">Delete</button>
+
+    <div id="form2">
+    <input type="text" name="updatename" placeholder="updated name" /><br>
+    <input type="number" name="updateage" placeholder="updated age" /><br>
+    <button id="updateitem">Submit</button>
+</div>
+</main>
+
+<script src="/Js/FetchAbout_us.js"></script>
+</body>
+</html>
+
+
