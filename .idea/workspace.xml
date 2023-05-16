@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="udvalg udvalg virker både bhu og avl">
-      <change afterPath="$PROJECT_DIR$/Html/Sponser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Html/Webmaster.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js/FetchSponsers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js/FetchWebMaster.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/Forside.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/Forside.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/FetchSelectionAvl.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/FetchSelectionAvl.js" afterDir="false" />
-    </list>
+    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="Nu med Webmaster" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +77,7 @@
       <workItem from="1684224662120" duration="1116000" />
       <workItem from="1684228735707" duration="2218000" />
       <workItem from="1684234897004" duration="4735000" />
-      <workItem from="1684242250378" duration="677000" />
+      <workItem from="1684242250378" duration="894000" />
     </task>
     <task id="LOCAL-00001" summary=" Nu med billede på forsiden">
       <created>1683901831020</created>
@@ -178,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684239377414</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Nu med Webmaster">
+      <created>1684243035201</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684243035201</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +204,7 @@
     <MESSAGE value="udvalg BHU virker" />
     <MESSAGE value="Changes by Joni" />
     <MESSAGE value="udvalg udvalg virker både bhu og avl" />
-    <option name="LAST_COMMIT_MESSAGE" value="udvalg udvalg virker både bhu og avl" />
+    <MESSAGE value="Nu med Webmaster" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nu med Webmaster" />
   </component>
 </project>
