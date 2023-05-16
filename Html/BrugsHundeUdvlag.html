@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BrugsHundeUdvalg</title>
+    <script src="/Js/FetchSelectionBHU.js" defer></script>
+</head>
+<body>
+<h1>Formand for Brugshundeudvlaget</h1>
+
+<h2>Opret medlem</h2>
+<form id="createSelectionForm">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" required><br>
+    <label for="number">Nummer:</label><br>
+    <input type="number" id="number" required><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" required><br>
+
+    <button onclick="createSelection(selection)">opret et medlem</button><br>
+</form>
+
+<h2>Get All Selections</h2>
+<button id="getAllSelectionsButton">Liste af medlemmer</button>
+
+<h2>Slet et medlem</h2>
+<form id="deleteSelectionForm">
+    <label for="selectionIdToDelete">Selection ID:</label>
+    <input type="text" id="selectionIdToDelete" required>
+
+    <button type="submit">Slet medlem</button>
+</form>
+</body>
+</html>

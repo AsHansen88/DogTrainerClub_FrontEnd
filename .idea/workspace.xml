@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="igang med om os side">
+    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="om os side virker næsten">
+      <change afterPath="$PROJECT_DIR$/Html/AvlsUdvalg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html/BrugsHundeUdvlag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/FetchSelectionAvl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/FetchSelectionBHU.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/Om_os.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/Om_os.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/FetchAbout_us.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/FetchAbout_us.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/Forside.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/Forside.html" afterDir="false" />
     </list>
     <list id="0fce8507-4c3f-4ae3-91a6-965c849975e5" name="Changes by Joni" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -67,7 +70,12 @@
       <workItem from="1684043451663" duration="101000" />
       <workItem from="1684138630517" duration="2433000" />
       <workItem from="1684150852382" duration="23000" />
-      <workItem from="1684150909498" duration="9067000" />
+      <workItem from="1684150909498" duration="9283000" />
+      <workItem from="1684163487584" duration="65000" />
+      <workItem from="1684177865822" duration="64000" />
+      <workItem from="1684210907880" duration="102000" />
+      <workItem from="1684224662120" duration="1116000" />
+      <workItem from="1684228735707" duration="1951000" />
     </task>
     <task id="LOCAL-00001" summary=" Nu med billede på forsiden">
       <created>1683901831020</created>
@@ -111,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684159230429</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="om os side virker næsten">
+      <created>1684160123289</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684160123289</updated>
+    </task>
+    <task id="LOCAL-00008" summary="om os side virker næsten">
+      <created>1684160219722</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684160219722</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +155,7 @@
     <MESSAGE value="faner på forsiden lavet" />
     <MESSAGE value="html igang" />
     <MESSAGE value="igang med om os side" />
-    <option name="LAST_COMMIT_MESSAGE" value="igang med om os side" />
+    <MESSAGE value="om os side virker næsten" />
+    <option name="LAST_COMMIT_MESSAGE" value="om os side virker næsten" />
   </component>
 </project>
