@@ -10,7 +10,7 @@
 <h2>Opret medlem</h2>
 <br>
 
-<form>
+<form id="createSelectionForm">
 <label for="name">Name:</label>
 <input type="text" id="name" required><br>
 <label for="number">Number:</label>
@@ -18,24 +18,16 @@
 <label for="email">Email:</label>
 <input type="text" id="email" required><br>
 
-<button type="submit">Opret medlem</button>
+    <button onclick="createSelection()">opret et medlem</button><br>
 </form>
 <br>
 
-<h3>Hent all Avlere</h3>
+<h2>Liste af avlere</h2>
+<div id="SelectionList">Liste af medlemmer</div>
 
-<br>
+<div id="message"></div>
 
-<button id="getAllSelectionsAvlButton">Hent avlere</button>
 
-<h4>Slet avlere</h4>
-
-<br>
-<form>
-    <label for="idTodelete">Medlems id:</label>
-    <input type="text" id="idTodelete">
-<button id="deleteSelectionAvlButton">Slet avler</button>
-</form>
 
 <script src="/Js/FetchSelectionAvl.js"></script>
 </body>

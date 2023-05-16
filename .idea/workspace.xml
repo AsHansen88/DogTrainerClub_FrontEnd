@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="udvalg virker næsten">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/BrugsHundeUdvlag.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/BrugsHundeUdvlag.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/FetchSelectionAvl.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/FetchSelectionAvl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/FetchSelectionBHU.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/FetchSelectionBHU.js" afterDir="false" />
-    </list>
-    <list id="0fce8507-4c3f-4ae3-91a6-965c849975e5" name="Changes by Joni" comment="">
+    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="udvalg BHU virker">
+      <change beforePath="$PROJECT_DIR$/Html/AvlsUdvalg.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/AvlsUdvalg.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Js/FetchSelectionAvl.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/FetchSelectionAvl.js" afterDir="false" />
     </list>
+    <list id="0fce8507-4c3f-4ae3-91a6-965c849975e5" name="Changes by Joni" comment="Changes by Joni" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,15 +30,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/Js/FetchSelectionAvl.js">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="33" changelist="0fce8507-4c3f-4ae3-91a6-965c849975e5" />
-        <range start1="3" end1="3" start2="34" end2="35" changelist="9d9fffb2-3207-49bf-9900-38878f8d0038" />
-        <range start1="78" end1="78" start2="110" end2="111" changelist="0fce8507-4c3f-4ae3-91a6-965c849975e5" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -93,7 +80,7 @@
       <workItem from="1684210907880" duration="102000" />
       <workItem from="1684224662120" duration="1116000" />
       <workItem from="1684228735707" duration="2218000" />
-      <workItem from="1684234897004" duration="3902000" />
+      <workItem from="1684234897004" duration="4281000" />
     </task>
     <task id="LOCAL-00001" summary=" Nu med billede på forsiden">
       <created>1683901831020</created>
@@ -165,7 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684234985725</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="udvalg BHU virker">
+      <created>1684238974967</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684238974967</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Changes by Joni">
+      <created>1684238988515</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684238988515</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +190,8 @@
     <MESSAGE value="igang med om os side" />
     <MESSAGE value="om os side virker næsten" />
     <MESSAGE value="udvalg virker næsten" />
-    <option name="LAST_COMMIT_MESSAGE" value="udvalg virker næsten" />
+    <MESSAGE value="udvalg BHU virker" />
+    <MESSAGE value="Changes by Joni" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by Joni" />
   </component>
 </project>
