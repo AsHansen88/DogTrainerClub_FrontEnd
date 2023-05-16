@@ -1,5 +1,36 @@
 console.log("Vi er i FetchSelectionAvl")
 
+const form = document.getElementById("selectionAvlForm");
+const nameInput = document.getElementById("selectionAvlName");
+const numberInput = document.querySelector("selectionAvlNumber");
+const emailInput = document.querySelector("SelectionAvlEmail");
+const selectionAvlList = document.getElementById("AvlsList");
+
+
+
+const fetchSelectionsAvlList = () => {
+   fetch("http://localhost:9090/Selection")
+       .then((response) => response.json())
+       .then((data) => {
+           selectionAvlList.innerHTML ="";
+
+           data.forEach((selectionModel) => {
+               const selectionElement = document.createElement("div");
+               selectionElement.innerHTML = `
+              <h3>${selectionModel.name}</h3>
+              <h3>${selectionModel.number}</h3>
+              <h3>${selectionModel.email}</h3>
+              <button onclick="deleteSelectionAvl('${selectionModel.id}')">Delete</button>
+            `;
+
+               selectionAvlList.appendChild(selectionElement);
+           });
+       })
+       .catch((error) => {
+       console.error("Error selectionAvl list:", error);
+       showMessage("Error fetching selectionAvl list", true);
+   });
+};
 // Build create User REST API
 
 function createSelectionAvl(selection) {
@@ -77,3 +108,4 @@ function deleteSelectionAvl(id) {
             console.error('Error deleting selectionAvl:', error);
         });
 }
+fetchSelectionsAvlList();
