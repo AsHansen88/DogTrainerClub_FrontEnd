@@ -1,4 +1,4 @@
-console.log("Vi er i FetchSelectionAvl")
+console.log("Vi er i fetchWebmaster")
 
 const form = document.getElementById("createSelectionForm");
 const nameInput = document.getElementById("name");
