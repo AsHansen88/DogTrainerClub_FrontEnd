@@ -1,6 +1,7 @@
 console.log("Vi er i FetchSelectionAvl")
 
 // Build create User REST API
+
 function createSelectionAvl(selection) {
     return fetch('http://localhost:9090/Selection', {
         method: 'POST',

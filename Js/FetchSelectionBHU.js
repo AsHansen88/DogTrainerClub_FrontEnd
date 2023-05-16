@@ -1,9 +1,20 @@
 console.log("Vi er i FetchSelectionBHU")
 
-// Build create User REST API
+const form = document.getElementById("createSelectionForm");
+const nameInput = document.getElementById("name");
+const numberInput = document.getElementById("number");
+const emailInput = document.getElementById("email");
+const SelectionList = document.getElementById("SelectionList");
 
-function createSelection(selection) {
-    return fetch('http://localhost:9090/Selection', {
+// Build create Selection REST API
+function createSelection() {
+    const selection = {
+        name: nameInput.value,
+        number: numberInput.value,
+        email: emailInput.value
+    };
+
+    fetch('http://localhost:9090/Selection', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -12,63 +23,101 @@ function createSelection(selection) {
     })
         .then(response => response.json())
         .then(savedSelection => {
-            return savedSelection;
+            console.log('Created selection:', savedSelection);
+            // Handle success or display a message
         })
         .catch(error => {
             console.error('Error creating selection:', error);
         });
 }
 
-// Build get user by id REST API
-function getSelectionById(id) {
-    return fetch(`http://localhost:9090/Selection${id}`)
-        .then(response => response.json())
-        .then(selection => {
-            return selection;
+const fetchSelectionList = () => {
+    fetch('http://localhost:9090/Selection')
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            } else {
+                throw new Error('Error fetching selection list');
+            }
+        })
+        .then(selections => {
+            // Handle the retrieved selections, e.g., display them on the page
+            console.log('All selections:', selections);
+            // Update the selection list UI or perform any other necessary operations
         })
         .catch(error => {
-            console.error('Error retrieving selection:', error);
+            console.error('Error retrieving selections:', error);
         });
-}
+};
 
-// Build Get All Users REST API
+// Build Get All Selections REST API
 function getAllSelections() {
-    return fetch('http://localhost:9090/Selection')
+    fetch('http://localhost:9090/Selection')
         .then(response => response.json())
         .then(selections => {
-            return selections;
+
+            SelectionList.innerHTML = "";
+
+            selections.forEach((SelectionModel) => {
+                const SelectionElement = document.createElement("div");
+                SelectionElement.innerHTML = `
+              <h3>${SelectionModel.name}</h3>
+              <h3>${SelectionModel.number}</h3>
+              <h3>${SelectionModel.email}</h3>
+              <button onclick="deleteSelection('${SelectionModel.id}')">Delete</button>
+            `;
+
+                SelectionList.appendChild(SelectionElement);
+            });
+
+            console.log('All selections:', selections);
+            // Handle the retrieved selections, e.g., display them on the page
         })
         .catch(error => {
             console.error('Error retrieving selections:', error);
         });
 }
 
-// Build Update User REST API
-function updateSelection(id, selection) {
-    return fetch(`http://localhost:9090/Selection${id}`, {
-        method: 'PUT',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(selection),
-    })
-        .then(response => response.json())
-        .then(updatedSelection => {
-            return updatedSelection;
-        })
-        .catch(error => {
-            console.error('Error updating selection:', error);
-        });
-}
+const showMessage = (message, isError = false) => {
+    const messageElement = document.getElementById("message");
+    messageElement.textContent = message;
+    messageElement.classList.remove("error");
+    if (isError) {
+        messageElement.classList.add("error");
+    }
+};
 
-// Build Delete User REST API
-function deleteSelection(id) {
-    return fetch(`http://localhost:9090/Selection${id}`, {
+// Function to delete an about us entry
+const deleteSelection = (selectionId) => {
+    fetch(`http://localhost:9090/Selection/${selectionId}`, {
+        method: "DELETE",
+    })
+        .then((response) => {
+            if (response.ok) {
+                showMessage("About Us Selection deleted successfully");
+                fetchSelectionList();
+            } else {
+                throw new Error("Error deleting selection entry");
+            }
+        })
+        .catch((error) => {
+            console.error("Error deleting selection entry:", error);
+            showMessage("Error deleting selection entry", true);
+        });
+};
+/*
+// Build Delete Selection REST API
+function deleteSelection(event) {
+    event.preventDefault();
+    const id = document.getElementById("deleteSelectionId").value;
+
+    fetch(`http://localhost:9090/Selection/${id}`, {
         method: 'DELETE',
     })
         .then(response => {
             if (response.ok) {
-                return 'Selection successfully deleted!';
+                console.log('Selection successfully deleted!');
+                // Handle success or display a message
             } else {
                 throw new Error('Error deleting selection.');
             }
@@ -77,3 +126,6 @@ function deleteSelection(id) {
             console.error('Error deleting selection:', error);
         });
 }
+*/
+// Call the getAllSelections function to retrieve and display selections on page load
+getAllSelections();
