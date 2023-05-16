@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="om os side virker næsten">
-      <change afterPath="$PROJECT_DIR$/Html/AvlsUdvalg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Html/BrugsHundeUdvlag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js/FetchSelectionAvl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js/FetchSelectionBHU.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/Forside.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/Forside.html" afterDir="false" />
-    </list>
+    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="udvalg virker næsten" />
     <list id="0fce8507-4c3f-4ae3-91a6-965c849975e5" name="Changes by Joni" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +68,7 @@
       <workItem from="1684177865822" duration="64000" />
       <workItem from="1684210907880" duration="102000" />
       <workItem from="1684224662120" duration="1116000" />
-      <workItem from="1684228735707" duration="1951000" />
+      <workItem from="1684228735707" duration="2218000" />
     </task>
     <task id="LOCAL-00001" summary=" Nu med billede på forsiden">
       <created>1683901831020</created>
@@ -133,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684160219722</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="udvalg virker næsten">
+      <created>1684230952883</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684230952883</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +156,7 @@
     <MESSAGE value="html igang" />
     <MESSAGE value="igang med om os side" />
     <MESSAGE value="om os side virker næsten" />
-    <option name="LAST_COMMIT_MESSAGE" value="om os side virker næsten" />
+    <MESSAGE value="udvalg virker næsten" />
+    <option name="LAST_COMMIT_MESSAGE" value="udvalg virker næsten" />
   </component>
 </project>
