@@ -4,9 +4,7 @@
     <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="Nu award page virker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <list id="5827db64-a127-4399-a994-234b2bb31e4a" name="Changes by Joni" comment="Changes by Joni">
-      <change beforePath="$PROJECT_DIR$/Js/FetchTrails.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/FetchTrails.js" afterDir="false" />
-    </list>
+    <list id="5827db64-a127-4399-a994-234b2bb31e4a" name="Changes by Joni" comment="Changes by Joni" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +83,7 @@
       <workItem from="1684242250378" duration="894000" />
       <workItem from="1684256040536" duration="182000" />
       <workItem from="1684311335735" duration="6067000" />
-      <workItem from="1684321378625" duration="2558000" />
+      <workItem from="1684321378625" duration="4039000" />
     </task>
     <task id="LOCAL-00001" summary=" Nu med billede på forsiden">
       <created>1683901831020</created>
@@ -255,7 +253,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684323586336</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Nu award page virker">
+      <created>1684323949999</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1684323949999</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Changes by Joni">
+      <created>1684323960665</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1684323960665</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,8 +297,8 @@
     <MESSAGE value="Nu med awards page" />
     <MESSAGE value="Nu uden awards page" />
     <MESSAGE value="Nu award page virker næsten" />
-    <MESSAGE value="Changes by Joni" />
     <MESSAGE value="Nu award page virker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nu award page virker" />
+    <MESSAGE value="Changes by Joni" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by Joni" />
   </component>
 </project>
