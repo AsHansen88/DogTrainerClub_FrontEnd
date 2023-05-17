@@ -25,7 +25,7 @@ function displayTrail(trail){
     <p><em>${formatDate(trail.date)}</em></p>
     `;
     postContainer.appendChild(trailElement);
-}
+};
 
 trailsForm.addEventListener('submit',event => {
     event.preventDefault();
