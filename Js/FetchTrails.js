@@ -1,4 +1,4 @@
-const trailsForm = document.getElementById('trails-from')
+const trailsForm = document.getElementById('trails-form')
 const trailContainer = document.getElementById('trails-container');
 
 function trailsFormdata(dataString){
@@ -7,7 +7,7 @@ return new Date (dataString).toLocaleString(undefined, options);
 }
 
 function fetchTrails(){
-    fetch('http://localhost:9090/prøver')
+    fetch('http://localhost:9090/prover')
         .then(response => response.json())
         .then(trails => {
             trailContainer.innerHTML='';
@@ -40,7 +40,7 @@ trailsForm.addEventListener('submit', event => {
         date: new Date().toISOString()
     };
 
-    fetch('http://localhost:9090/prøve', {
+    fetch('http://localhost:9090/prove', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
