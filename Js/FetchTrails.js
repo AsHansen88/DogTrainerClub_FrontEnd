@@ -22,7 +22,7 @@ function displayTrail(trail){
     trailElement.innerHTML = `
     <h2>${trail.title}</h2>
     <p>${trail.body}</p>
-    <p><em>${formatDate(trail.date)}</em></p>
+    <p><em>${trailsFormdata(trail.date)}</em></p>
     `;
     postContainer.appendChild(trailElement);
 };
