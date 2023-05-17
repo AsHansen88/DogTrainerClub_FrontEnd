@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="Nu med awards page">
+    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="Nu uden awards page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Html/Kåringer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/Kåringer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/prøver.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/prøver.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Js/FetchAwards.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/FetchAwards.js" afterDir="false" />
     </list>
     <list id="5827db64-a127-4399-a994-234b2bb31e4a" name="Changes by Joni" comment="Changes by Joni">
-      <change beforePath="$PROJECT_DIR$/Html/prøver.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/prøver.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Js/FetchTrails.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/FetchTrails.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,16 +33,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/Html/prøver.html">
-      <ranges>
-        <range start1="9" end1="11" start2="9" end2="12" changelist="5827db64-a127-4399-a994-234b2bb31e4a" />
-        <range start1="12" end1="14" start2="13" end2="20" changelist="5827db64-a127-4399-a994-234b2bb31e4a" />
-        <range start1="15" end1="15" start2="21" end2="23" changelist="5827db64-a127-4399-a994-234b2bb31e4a" />
-        <range start1="16" end1="17" start2="24" end2="25" changelist="9d9fffb2-3207-49bf-9900-38878f8d0038" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -98,7 +86,8 @@
       <workItem from="1684234897004" duration="4735000" />
       <workItem from="1684242250378" duration="894000" />
       <workItem from="1684256040536" duration="182000" />
-      <workItem from="1684311335735" duration="6022000" />
+      <workItem from="1684311335735" duration="6067000" />
+      <workItem from="1684321378625" duration="1538000" />
     </task>
     <task id="LOCAL-00001" summary=" Nu med billede på forsiden">
       <created>1683901831020</created>
@@ -219,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684314966583</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Changes by Joni">
+      <created>1684318690679</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684318690679</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Nu uden awards page">
+      <created>1684318718299</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684318718299</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +251,7 @@
     <MESSAGE value="Nu med Webmaster" />
     <MESSAGE value="Nu med awards page" />
     <MESSAGE value="Changes by Joni" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by Joni" />
+    <MESSAGE value="Nu uden awards page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nu uden awards page" />
   </component>
 </project>
