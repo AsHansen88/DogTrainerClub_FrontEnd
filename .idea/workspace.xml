@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="Nu uden awards page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="Nu award page virker næsten">
       <change beforePath="$PROJECT_DIR$/Html/Kåringer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/Kåringer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Js/FetchAwards.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/FetchAwards.js" afterDir="false" />
     </list>
-    <list id="5827db64-a127-4399-a994-234b2bb31e4a" name="Changes by Joni" comment="Changes by Joni">
-      <change beforePath="$PROJECT_DIR$/Js/FetchTrails.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/FetchTrails.js" afterDir="false" />
-    </list>
+    <list id="5827db64-a127-4399-a994-234b2bb31e4a" name="Changes by Joni" comment="Changes by Joni" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +84,7 @@
       <workItem from="1684242250378" duration="894000" />
       <workItem from="1684256040536" duration="182000" />
       <workItem from="1684311335735" duration="6067000" />
-      <workItem from="1684321378625" duration="1538000" />
+      <workItem from="1684321378625" duration="1923000" />
     </task>
     <task id="LOCAL-00001" summary=" Nu med billede på forsiden">
       <created>1683901831020</created>
@@ -222,7 +219,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684318718299</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Nu award page virker næsten">
+      <created>1684323092030</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1684323092030</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Changes by Joni">
+      <created>1684323100962</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1684323100962</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,8 +261,9 @@
     <MESSAGE value="udvalg udvalg virker både bhu og avl" />
     <MESSAGE value="Nu med Webmaster" />
     <MESSAGE value="Nu med awards page" />
-    <MESSAGE value="Changes by Joni" />
     <MESSAGE value="Nu uden awards page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nu uden awards page" />
+    <MESSAGE value="Nu award page virker næsten" />
+    <MESSAGE value="Changes by Joni" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by Joni" />
   </component>
 </project>
