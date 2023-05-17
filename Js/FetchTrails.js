@@ -27,7 +27,7 @@ function displayTrail(trail){
     postContainer.appendChild(trailElement);
 }
 
-trailsForm.addEventListener('submit', event => {
+trailsForm.addEventListener('submit',event => {
     event.preventDefault();
 
     const titleInput = document.getElementById('title');
