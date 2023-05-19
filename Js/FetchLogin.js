@@ -27,30 +27,40 @@ loginForm.addEventListener('submit', (e) => {
         });
 });
 
-// Registration form submission
+
 const registrationForm = document.getElementById('registrationForm');
+
 registrationForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
     const regUsername = document.getElementById('regUsername').value;
     const regEmail = document.getElementById('regEmail').value;
     const regPassword = document.getElementById('regPassword').value;
-    const role = document.getElementById('role').value;
 
-    // Send a POST request to the '/signup' endpoint
+    // Make a POST request to the signup endpoint
     fetch('http://localhost:9090/api/auth/signup', {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ username: regUsername, email: regEmail, password: regPassword, role })
+        body: JSON.stringify({ username: regUsername, email: regEmail, password: regPassword }),
     })
-        .then(response => response.json())
-        .then(data => {
-            // Handle the response
-            console.log(data);
+        .then((response) => {
+            if (response.ok) {
+                // Registration successful
+                return response.json();
+            } else if (response.status === 401) {
+                throw new Error('Unauthorized: You are not allowed to access this resource.');
+            } else {
+                throw new Error('Registration failed');
+            }
         })
-        .catch(error => {
+        .then((data) => {
+            // Handle the response data
+            console.log(data);
+            // Redirect to a different page or perform any additional actions
+        })
+        .catch((error) => {
             console.error('Error:', error);
         });
 });
