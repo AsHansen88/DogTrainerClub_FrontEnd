@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="signIn virker &#10;opret bruger virker ikke&#10;logud er ikke kodet endnu">
+    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="sign in virker,&#10;sign up virker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/Loginin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/Loginin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Html/Webmaster.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/Webmaster.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/FetchLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/FetchLogin.js" afterDir="false" />
     </list>
     <list id="5827db64-a127-4399-a994-234b2bb31e4a" name="Changes by Joni" comment="Changes by Joni" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +88,7 @@
       <workItem from="1684483774542" duration="4094000" />
       <workItem from="1684488122062" duration="1492000" />
       <workItem from="1684489632376" duration="132000" />
-      <workItem from="1684491378751" duration="3905000" />
+      <workItem from="1684491378751" duration="4297000" />
     </task>
     <task id="LOCAL-00001" summary=" Nu med billede på forsiden">
       <created>1683901831020</created>
@@ -303,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684486588304</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="sign in virker,&#10;sign up virker">
+      <created>1684495456193</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1684495456193</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +341,7 @@
     <MESSAGE value="Changes by Joni" />
     <MESSAGE value="Nu trail page virker" />
     <MESSAGE value="signIn virker &#10;opret bruger virker ikke&#10;logud er ikke kodet endnu" />
-    <option name="LAST_COMMIT_MESSAGE" value="signIn virker &#10;opret bruger virker ikke&#10;logud er ikke kodet endnu" />
+    <MESSAGE value="sign in virker,&#10;sign up virker" />
+    <option name="LAST_COMMIT_MESSAGE" value="sign in virker,&#10;sign up virker" />
   </component>
 </project>
