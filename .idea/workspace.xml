@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="sign in virker,&#10;sign up virker">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="sign in virker,&#10;sign up virker" />
     <list id="5827db64-a127-4399-a994-234b2bb31e4a" name="Changes by Joni" comment="Changes by Joni" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +87,7 @@
       <workItem from="1684488122062" duration="1492000" />
       <workItem from="1684489632376" duration="132000" />
       <workItem from="1684491378751" duration="4297000" />
+      <workItem from="1684495866506" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary=" Nu med billede på forsiden">
       <created>1683901831020</created>
@@ -307,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684495456193</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="sign in virker,&#10;sign up virker">
+      <created>1684496147281</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1684496147282</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
