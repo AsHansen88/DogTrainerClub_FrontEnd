@@ -1,6 +1,5 @@
 console.log("Vi er er Fetchlogin")
 
-
 // Login form submission
 const loginForm = document.getElementById('loginForm');
 loginForm.addEventListener('submit', (e) => {
@@ -64,6 +63,5 @@ registrationForm.addEventListener('submit', (e) => {
             console.error('Error:', error);
         });
 });
-
 
 
