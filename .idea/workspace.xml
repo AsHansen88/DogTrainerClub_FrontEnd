@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="All user logins driller pånær all access">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/Loginin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/Loginin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/FetchPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/FetchPost.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Js/FetchUserLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/FetchUserLogin.js" afterDir="false" />
     </list>
-    <list id="5827db64-a127-4399-a994-234b2bb31e4a" name="Changes by Joni" comment="Changes by Joni" />
+    <list id="5827db64-a127-4399-a994-234b2bb31e4a" name="Changes by Joni" comment="Changes by Joni">
+      <change beforePath="$PROJECT_DIR$/Html/PostPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/PostPage.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -101,7 +105,17 @@
       <workItem from="1684745382515" duration="1004000" />
       <workItem from="1684746826127" duration="3000" />
       <workItem from="1684746852969" duration="2198000" />
-      <workItem from="1684752622042" duration="4346000" />
+      <workItem from="1684752622042" duration="4381000" />
+      <workItem from="1684760802310" duration="1586000" />
+      <workItem from="1684762872485" duration="58000" />
+      <workItem from="1684763724175" duration="547000" />
+      <workItem from="1684766034646" duration="584000" />
+      <workItem from="1684766708393" duration="726000" />
+      <workItem from="1684770882645" duration="1263000" />
+      <workItem from="1684773324033" duration="661000" />
+      <workItem from="1684824869908" duration="1195000" />
+      <workItem from="1684827352970" duration="65000" />
+      <workItem from="1684839678215" duration="6780000" />
     </task>
     <task id="LOCAL-00001" summary=" Nu med billede på forsiden">
       <created>1683901831020</created>
@@ -355,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684757620149</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="All user logins driller pånær all access">
+      <created>1684758588901</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1684758588901</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
