@@ -10,7 +10,6 @@ fetch('http://localhost:9090/api/test/all')
         console.error('Error:', error);
     });
 
-
 // Make a GET request to the "/user" endpoint
 fetch('http://localhost:9090/api/test/user')
     .then(response => response.text())
@@ -40,3 +39,6 @@ fetch('http://localhost:9090/api/test/admin')
     .catch(error => {
         console.error('Error:', error);
     });
+
+
+

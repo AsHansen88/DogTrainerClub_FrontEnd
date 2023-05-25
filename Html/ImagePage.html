@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Image Gallery</title>
-<link rel="stylesheet" href="/Css/ImagePage.css">
+
+    <link rel="stylesheet" href="/Css/ImagePage.css">
 </head>
 <body>
 
@@ -50,6 +50,19 @@
 
 </ul>
 
+<title>Image Gallery</title>
+
+<form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" name="image" id="imageInput" required />
+    <input type="submit" value="Upload" />
+</form>
+
+<h1>Image Example</h1>
+<img src="http://localhost:9090/image/smokeywhiskey.jpg" alt="Image Description">
+
+<div class="gallery"></div>
+
+<!--
 <form id="uploadForm" enctype="multipart/form-data">
 
     <input type="file" name="image" id="imageInput" required />
@@ -62,6 +75,7 @@
 </form>
 
 <div class="gallery"></div>
+-->
 
 <script src="/Js/FetchImage.js"></script>
 </body>

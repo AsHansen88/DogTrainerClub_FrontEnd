@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Fetch images from the REST API
     function fetchImages() {
-        fetch('http://localhost:9090/images/borderlands 3 fejl.jpg')
+        fetch('http://localhost:9090/image/smokeywhiskey.jpg')
             .then(response => response.json())
             .then(data => {
                 // Clear existing gallery
