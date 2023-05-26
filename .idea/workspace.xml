@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="login redirect to forside">
+    <list default="true" id="9d9fffb2-3207-49bf-9900-38878f8d0038" name="Changes" comment="signout button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Html/Loginin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Html/Loginin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/FetchLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js/FetchLogin.js" afterDir="false" />
     </list>
     <list id="5827db64-a127-4399-a994-234b2bb31e4a" name="Changes by Joni" comment="Changes by Joni" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +122,8 @@
       <workItem from="1685002126484" duration="2683000" />
       <workItem from="1685005226192" duration="1835000" />
       <workItem from="1685012448934" duration="675000" />
-      <workItem from="1685092099637" duration="683000" />
+      <workItem from="1685092099637" duration="1038000" />
+      <workItem from="1685099009895" duration="2002000" />
     </task>
     <task id="LOCAL-00001" summary=" Nu med billede på forsiden">
       <created>1683901831020</created>
@@ -402,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685006536112</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="signout button">
+      <created>1685095220714</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1685095220714</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,6 +451,7 @@
     <MESSAGE value="post kommer forrest, men dato er ikke vist" />
     <MESSAGE value="Changes by Joni" />
     <MESSAGE value="login redirect to forside" />
-    <option name="LAST_COMMIT_MESSAGE" value="login redirect to forside" />
+    <MESSAGE value="signout button" />
+    <option name="LAST_COMMIT_MESSAGE" value="signout button" />
   </component>
 </project>

@@ -48,7 +48,7 @@ loginForm.addEventListener('submit', (e) => {
             // Handle the response
             console.log(data);
             // Redirect to Forside.html
-            window.location.href = 'Forside.html';
+            //window.location.href = 'Forside.html';
         })
         .catch(error => {
             console.error('Error:', error);
@@ -65,13 +65,14 @@ registrationForm.addEventListener('submit', (e) => {
     const regEmail = document.getElementById('regEmail').value;
     const regPassword = document.getElementById('regPassword').value;
 
+
     // Make a POST request to the signup endpoint
     fetch('http://localhost:9090/api/auth/signup', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ username: regUsername, email: regEmail, password: regPassword }),
+        body: JSON.stringify({ username: regUsername, email: regEmail, password: regPassword, roles: ["ROLE_ADMIN"]}),
     })
         .then((response) => {
             if (response.ok) {
@@ -95,24 +96,26 @@ registrationForm.addEventListener('submit', (e) => {
 
 //logout
 
-// Make a POST request to the signout endpoint
-fetch('http://localhost:9090/api/auth/signout', {
-    method: 'POST',
-})
-    .then(response => {
-        if (response.ok) {
-            // Remove the JWT token cookie
-            document.cookie = 'jwtToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-
-            // Display a success message
-            alert('You have been signed out!');
-        } else {
-            // Handle the error response
-            alert('Failed to sign out. Please try again.');
-        }
+// Add a click event listener to the button
+document.getElementById('signoutButton').addEventListener('click', () => {
+    // Make a POST request to the signout endpoint
+    fetch('http://localhost:9090/api/auth/signout', {
+        method: 'POST',
     })
-    .catch(error => {
-        console.error('Error:', error);
-        alert('An error occurred. Please try again.');
-    });
+        .then(response => {
+            if (response.ok) {
+                // Remove the JWT token cookie
+                document.cookie = 'jwtToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
 
+                // Display a success message
+                alert('You have been signed out!');
+            } else {
+                // Handle the error response
+                alert('Failed to sign out. Please try again.');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('An error occurred. Please try again.');
+        });
+});
