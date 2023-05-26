@@ -93,4 +93,26 @@ registrationForm.addEventListener('submit', (e) => {
         });
 });
 
+//logout
+
+// Make a POST request to the signout endpoint
+fetch('http://localhost:9090/api/auth/signout', {
+    method: 'POST',
+})
+    .then(response => {
+        if (response.ok) {
+            // Remove the JWT token cookie
+            document.cookie = 'jwtToken=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+
+            // Display a success message
+            alert('You have been signed out!');
+        } else {
+            // Handle the error response
+            alert('Failed to sign out. Please try again.');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('An error occurred. Please try again.');
+    });
 
